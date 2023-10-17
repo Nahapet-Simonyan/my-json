@@ -1,0 +1,30 @@
+{
+  "stores": [
+    {
+      "id": "sos1",
+      "name": "Eriadu",
+      "url": ""
+    },
+    {
+      "id": "sos2",
+      "name": "Socorro",
+      "url": ""
+    },
+    {
+      "id": "sos3",
+      "name": "Ord Mantell",
+      "url": ""
+    },
+    {
+      "id": "sos4",
+      "name": "Dantooine",
+      "url": ""
+    },
+    {
+      "id": "sos5",
+      "name": "Cato Neimoidia",
+      "url": ""
+    },
+  ],
+  
+}
