@@ -1,27 +1,50 @@
 {
-  "stores": [
+  "special_offers": [
     {
       "id": "sos1",
-      "name": "Eriadu",
+      "detail": "new",
+      "name": "C-3PO",
+      "price": "1.350.000",
       "url": ""
     },
     {
       "id": "sos2",
-      "name": "Socorro",
+      "detail": "new",
+      "name": "R2-D2",
+      "price": "37.000",
       "url": ""
     },
     {
       "id": "sos3",
+      "detail": "new",
+      "name": "Darth Vader",
+      "price": "820.000",
+      "url": ""
+    }
+  ],
+  "stores": [
+    {
+      "id": "sts1",
+      "name": "Eriadu",
+      "url": ""
+    },
+    {
+      "id": "sts2",
+      "name": "Socorro",
+      "url": ""
+    },
+    {
+      "id": "sts3",
       "name": "Ord Mantell",
       "url": ""
     },
     {
-      "id": "sos4",
+      "id": "sts4",
       "name": "Dantooine",
       "url": ""
     },
     {
-      "id": "sos5",
+      "id": "sts5",
       "name": "Cato Neimoidia",
       "url": ""
     }
