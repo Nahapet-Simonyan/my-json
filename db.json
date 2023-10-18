@@ -1,54 +1,54 @@
 {
   "explore": {
-  "specialOffers": [
-    {
-      "id": "sos1",
-      "detail": "new",
-      "name": "C-3PO",
-      "price": "1.350.000",
-      "url": ""
-    },
-    {
-      "id": "sos2",
-      "detail": "new",
-      "name": "R2-D2",
-      "price": "37.000",
-      "url": ""
-    },
-    {
-      "id": "sos3",
-      "detail": "new",
-      "name": "Darth Vader",
-      "price": "820.000",
-      "url": ""
-    }
-  ],
-  "stores": [
-    {
-      "id": "sts1",
-      "name": "Eriadu",
-      "url": ""
-    },
-    {
-      "id": "sts2",
-      "name": "Socorro",
-      "url": ""
-    },
-    {
-      "id": "sts3",
-      "name": "Ord Mantell",
-      "url": ""
-    },
-    {
-      "id": "sts4",
-      "name": "Dantooine",
-      "url": ""
-    },
-    {
-      "id": "sts5",
-      "name": "Cato Neimoidia",
-      "url": ""
-    }
-  ]
-}
+    "specialOffers": [
+      {
+        "id": "sos1",
+        "detail": "new",
+        "name": "C-3PO",
+        "price": "1.350.000",
+        "url": ""
+      },
+      {
+        "id": "sos2",
+        "detail": "new",
+        "name": "R2-D2",
+        "price": "37.000",
+        "url": ""
+      },
+      {
+        "id": "sos3",
+        "detail": "new",
+        "name": "Darth Vader",
+        "price": "820.000",
+        "url": ""
+      }
+    ],
+    "stores": [
+      {
+       "id": "sts1",
+       "name": "Eriadu",
+        "url": ""
+      },
+      {
+        "id": "sts2",
+        "name": "Socorro",
+        "url": ""
+      },
+      {
+        "id": "sts3",
+        "name": "Ord Mantell",
+        "url": ""
+      },
+      {
+        "id": "sts4",
+        "name": "Dantooine",
+        "url": ""
+      },
+      {
+        "id": "sts5",
+        "name": "Cato Neimoidia",
+        "url": ""
+      }
+    ]
+  }
 }
