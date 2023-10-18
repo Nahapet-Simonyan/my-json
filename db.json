@@ -1,4 +1,5 @@
 {
+  "explore": {
   "specialOffers": [
     {
       "id": "sos1",
@@ -49,4 +50,5 @@
       "url": ""
     }
   ]
+}
 }
