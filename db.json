@@ -1,59 +1,423 @@
 {
-  "explore": {
-    "specialOffers": [
-      {
-        "id": "sos1",
-        "detail": "new",
-        "name": "C-3PO",
-        "price": "1.350.000",
-        "url": ""
+  "specialOffers": [
+    {
+      "id": "sos1",
+      "detail": "new",
+      "name": "C-3PO",
+      "price": "1.350.000",
+      "url": ""
+    },
+    {
+      "id": "sos2",
+      "detail": "new",
+      "name": "R2-D2",
+      "price": "37.000",
+      "url": ""
+    },
+    {
+      "id": "sos3",
+      "detail": "new",
+      "name": "Darth Vader",
+      "price": "820.000",
+      "url": ""
+    }
+  ],
+  "stores": [
+    {
+      "id": "sts1",
+      "name": "Eriadu",
+      "logo": "",
+      "url": "",
+      "info": "is a supplier of dental materials and instruments.",
+      "categories": {
+        "stomatology": {
+          "dental materials": [
+            "filling",
+            "endodontic",
+            "therapeutic",
+            "prophilactic",
+            "surgical",
+            "orthopedic"
+          ],
+          "dental instruments": [
+            "therapeutic",
+            "surgical",
+            "orthodontic",
+            "orthopedic",
+          ]
+        }  
       },
-      {
-        "id": "sos2",
-        "detail": "new",
-        "name": "R2-D2",
-        "price": "37.000",
-        "url": ""
+      "items": [
+        {
+          "id": "it1sts1",
+          "name": "Millennium Falcon",
+          "brand": "Corellian Engineering Corporation",
+          "price": "100.000",
+          "info": "Light freighter",
+          "image": "",
+          "url": "",
+          "category": {
+            "dental instruments": "surgical"
+          },
+          "store": "sts1"
+        },
+        {
+          "id": "it2sts1",
+          "name": "BTL Y-wing",
+          "brand": "Koensayr Manufacturing",
+          "price": "14.000",
+          "info": "Assault starfighter",
+          "image": "",
+          "url": "",
+          "category": {
+            "dental instruments": "surgical"
+          },
+          "store": "sts1"
+        },
+        {
+          "id": "it3sts1",
+          "name": "T-65 X-wing",
+          "brand": "Incom Corporation",
+          "price": "75.000",
+          "info": "Light freighter",
+          "image": "",
+          "url": "",
+          "category": {
+            "dental instruments": "surgical"
+          },
+          "store": "sts1"
+        }
+      ]
+    },
+    {
+      "id": "sts2",
+      "name": "Socorro",
+      "logo": "",
+      "url": "",
+      "info": "is a supplier of dental materials and instruments.",
+      "categories": {
+        "stomatology": {
+          "dental materials": [
+            "filling",
+            "endodontic",
+            "therapeutic",
+            "prophilactic",
+            "surgical",
+            "orthopedic"
+          ],
+          "dental instruments": [
+            "therapeutic",
+            "surgical",
+            "orthodontic",
+            "orthopedic"
+          ]
+        }  
       },
-      {
-        "id": "sos3",
-        "detail": "new",
-        "name": "Darth Vader",
-        "price": "820.000",
-        "url": ""
-      }
-    ],
-    "stores": [
-      {
-       "id": "sts1",
-       "name": "Eriadu",
-        "url": ""
+      "items": [
+        {
+          "id": "it1sts2",
+          "name": "Twin Ion Engine Advanced x1",
+          "brand": "Sienar Fleet Systems",
+          "price": "120.000"",
+          "info": "Starfighter",
+          "image": "",
+          "url": "",
+          "category": {
+            "dental instruments": "surgical"
+          },
+          "store": "sts2"
+        },
+        {
+          "id": "it2sts2",
+          "name": "Executor-class star dreadnought",
+          "brand": "Kuat Drive Yards, Fondor Shipyards",
+          "price": "13.350.000",
+          "info": "Star dreadnought",
+          "image": "",
+          "url": "",
+          "category": {
+            "dental instruments": "surgical"
+          },
+          "store": "sts2"
+        },
+        {
+          "id": "it3sts2",
+          "name": "GR-75 medium transport",
+          "brand": "Gallofree Yards, Inc.",
+          "price": "19.000.000",
+          "info": "Medium freighter",
+          "image": "",
+          "url": "",
+          "category": {
+            "dental instruments": "surgical"
+          },
+          "store": "sts2"
+        }
+      ]
+    },
+    {
+      "id": "sts3",
+      "name": "Ord Mantell",
+      "logo": "",
+      "url": "",
+      "info": "is a supplier of dental materials and instruments.",
+      "categories": {
+        "stomatology": {
+          "dental materials": [
+            "filling",
+            "endodontic",
+            "therapeutic",
+            "prophilactic",
+            "surgical",
+            "orthopedic"
+          ],
+          "dental instruments": [
+            "therapeutic",
+            "surgical",
+            "orthodontic",
+            "orthopedic"
+          ]
+        }  
       },
-      {
-        "id": "sts2",
-        "name": "Socorro",
-        "url": ""
+      "items": [
+        {
+          "id": "it1sts3",
+          "name": "Firespray-31-class patrol and attack",
+          "brand": "Kuat Systems Engineering",
+          "price": "2.500.000",
+          "info": "Patrol craft",
+          "image": "",
+          "url": "",
+          "category": {
+            "dental instruments": "surgical"
+          },
+          "store": "sts3"
+        },
+        {
+          "id": "it2sts3",
+          "name": "Imperial I-class Star Destroyer",
+          "brand": "Kuat Drive Yards",
+          "price": "47.600",
+          "info": "Deep Space Mobile Battlestation",
+          "image": "",
+          "url": "",
+          "category": {
+            "dental instruments": "surgical"
+          },
+          "store": "sts3"
+        },
+        {
+          "id": "it3sts3",
+          "name": "Sentinel-class landing craft",
+          "brand": "Sienar Fleet Systems, Cyngus Spaceworks",
+          "price": "240.000",
+          "info": "Light freighter",
+          "image": "",
+          "url": "",
+          "category": {
+            "dental instruments": "surgical"
+          },
+          "store": "sts3"
+        }
+      ]
+    },
+    {
+      "id": "sts4",
+      "name": "Dantooine",
+      "logo": "",
+      "url": "",
+      "info": "is a supplier of dental materials and instruments.",
+      "categories": {
+        "stomatology": {
+          "dental materials": [
+            "filling",
+            "endodontic",
+            "therapeutic",
+            "prophilactic",
+            "surgical",
+            "orthopedic"
+          ],
+          "dental instruments": [
+            "therapeutic",
+            "surgical",
+            "orthodontic",
+            "orthopedic"
+          ]
+        }  
       },
-      {
-        "id": "sts3",
-        "name": "Ord Mantell",
-        "url": ""
+      "items": [
+        {
+          "id": "it1sts4",
+          "name": "Lambda-class T-4a shuttle",
+          "brand": "Sienar Fleet Systems",
+          "price": "240.000",
+          "info": "Armed government transport",
+          "image": "",
+          "url": "",
+          "category": {
+            "dental instruments": "surgical"
+          },
+          "store": "sts4"
+        },
+        {
+          "id": "it2sts4",
+          "name": "EF76 Nebulon-B escort frigate",
+          "brand": "Kuat Drive Yards",
+          "price": "850.000",
+          "info": "Escort ship",
+          "image": "",
+          "url": "",
+          "category": {
+            "dental instruments": "surgical"
+          },
+          "store": "sts4"
+        },
+        {
+          "id": "it3sts4",
+          "name": "MC80 Liberty type Star Cruiser",
+          "brand": "Mon Calamari shipyards",
+          "price": "unknown",
+          "info": "Star Cruiser",
+          "image": "",
+          "url": "",
+          "category": {
+            "dental instruments": "surgical"
+          },
+          "store": "sts4"
+        }
+      ]
+    },
+    {
+      "id": "sts5",
+      "name": "Cato Neimoidia",
+      "logo": "",
+      "url": "",
+      "info": "is a supplier of dental materials and instruments.",
+      "categories": {
+        "stomatology": {
+          "dental materials": [
+            "filling",
+            "endodontic",
+            "therapeutic",
+            "prophilactic",
+            "surgical",
+            "orthopedic"
+          ],
+          "dental instruments": [
+            "therapeutic",
+            "surgical",
+            "orthodontic",
+            "orthopedic"
+          ]
+        }  
       },
-      {
-        "id": "sts4",
-        "name": "Dantooine",
-        "url": ""
+      "items": [
+        {
+          "id": "it1sts5",
+          "name": "RZ-1 A-wing Interceptor",
+          "brand": "Alliance Underground Engineering, Incom Corporation",
+          "price": "175.000",
+          "info": "Starfighter",
+          "image": "",
+          "url": "",
+          "category": {
+            "dental instruments": "surgical"
+          },
+          "store": "sts5"
+        },
+        {
+          "id": "it2sts5",
+          "name": "A/SF-01 B-wing starfighter",
+          "brand": "Slayn & Korpil",
+          "price": "220.000",
+          "info": "Assault Starfighter",
+          "image": "",
+          "url": "",
+          "category": {
+            "dental instruments": "surgical"
+          },
+          "store": "sts5"
+        },
+        {
+          "id": "it3sts5",
+          "name": "Consular-class cruiser",
+          "brand": "Corellian Engineering Corporation",
+          "price": "unknown",
+          "info": "Space cruiser",
+          "image": "",
+          "url": "",
+          "category": {
+            "dental instruments": "surgical"
+          },
+          "store": "sts5"
+        }
+      ]
+    },
+    {
+      "id": "sts6",
+      "name": "Beru Whitesun lars",
+      "logo": "",
+      "url": "",
+      "info": "is a supplier of dental materials and instruments.",
+      "categories": {
+        "stomatology": {
+          "dental materials": [
+            "filling",
+            "endodontic",
+            "therapeutic",
+            "prophilactic",
+            "surgical",
+            "orthopedic"
+          ],
+          "dental instruments": [
+            "therapeutic",
+            "surgical",
+            "orthodontic",
+            "orthopedic"
+          ]
+        }  
       },
-      {
-        "id": "sts5",
-        "name": "Cato Neimoidia",
-        "url": ""
-      },
-      {
-        "id": "sts6",
-        "name": "Beru Whitesun lars",
-        "url": ""
-      }
-    ]
-  }
+      "items": [
+        {
+          "id": "it1sts6",
+          "name": "CR90 corvette",
+          "brand": "Corellian Engineering Corporation",
+          "price": "3.500.000",
+          "info": "landing craft",
+          "image": "",
+          "url": "",
+          "category": {
+            "dental instruments": "surgical"
+          },
+          "store": "sts6"
+        },
+        {
+          "id": "it2sts6",
+          "name": "Imperial I-class Star Destroyer",
+          "brand": "Kuat Drive Yards",
+          "price": "47.600",
+          "info": "Deep Space Mobile Battlestation",
+          "image": "",
+          "url": "",
+          "category": {
+            "dental instruments": "surgical"
+          },
+          "store": "sts6"
+        },
+        {
+          "id": "it3sts6",
+          "name": "Sentinel-class landing craft",
+          "brand": "Sienar Fleet Systems, Cyngus Spaceworks",
+          "price": "240.000",
+          "info": "Light freighter",
+          "image": "",
+          "url": "",
+          "category": {
+            "dental instruments": "surgical"
+          },
+          "store": "sts6"
+        }
+      ]
+    }
+  ]
 }
